@@ -18,6 +18,8 @@ export const tools: Work[] = [
     tech: ["HTML", "JavaScript", "ExcelJS"],
     point: "3人体制・4人体制を切り替えてシフトを作れます。担当コースの割り当てに偏りが出ないように調整し、Excelに出力して出勤回数などを自動で集計できるようにしました。最後は人の目で確認して手で調整する前提の半自動ツールです。",
     usage: "実際の業務で、毎月のシフト作成に使用中",
+    // public/shift-tool.html（実名を仮の名前に置き換えた公開用コピー）
+    url: "/shift-tool.html",
   },
   {
     title: "月次請求書自動化",
