@@ -4,10 +4,10 @@ export default function Skills() {
   return (
     <section id="skills" className="px-6 py-24">
       <div className="mx-auto max-w-2xl">
-        <h2 className="text-sm font-semibold tracking-wide text-accent">
+        <h2 className="text-center text-sm font-semibold tracking-wide text-accent">
           SKILLS
         </h2>
-        <h3 className="mt-2 text-2xl font-bold tracking-tight sm:text-3xl">
+        <h3 className="mt-2 text-center text-2xl font-bold tracking-tight sm:text-3xl">
           制作で使っているツール
         </h3>
         <p className="mt-3 text-sm leading-relaxed text-muted">

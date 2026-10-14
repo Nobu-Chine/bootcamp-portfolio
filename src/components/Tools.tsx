@@ -5,10 +5,10 @@ export default function Tools() {
   return (
     <section id="tools" className="bg-card px-6 py-24">
       <div className="mx-auto max-w-2xl">
-        <h2 className="text-sm font-semibold tracking-wide text-accent">
+        <h2 className="text-center text-sm font-semibold tracking-wide text-accent">
           TOOLS IN USE
         </h2>
-        <h3 className="mt-2 text-2xl font-bold tracking-tight sm:text-3xl">
+        <h3 className="mt-2 text-center text-2xl font-bold tracking-tight sm:text-3xl">
           実際に使い続けているツール
         </h3>
 

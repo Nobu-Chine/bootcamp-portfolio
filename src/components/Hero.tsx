@@ -12,7 +12,7 @@ export default function Hero() {
         <span className="inline-block">生成AIで解決する</span>
       </h1>
       <p className="mt-6 max-w-md text-left text-base leading-relaxed text-muted sm:text-center">
-        私はエンジニアではありません。配送の仕事をしながら、バドミントンクラブのコーチもしています。身の回りの困りごとをAIと一緒にツールにして、日々の仕事や活動で使っています。
+        私はエンジニアではありません。配送の仕事をしながら、<span className="whitespace-nowrap">バドミントン</span>クラブのコーチもしています。身の回りの困りごとをAIと一緒にツールにして、日々の仕事や活動で使っています。
       </p>
     </section>
   );
