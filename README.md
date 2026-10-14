@@ -15,7 +15,6 @@ Singularity Society BootCamp 応募用の自己紹介サイト。
 | 実際に使い続けているツール | 使用状況つきのカード | `src/data/works.ts` の `tools` |
 | その他の作品 | 公開しているサイト・アプリ | `src/data/works.ts` の `otherWorks` |
 | 私の作り方 | AIとの作り方 | `src/components/Approach.tsx` |
-| ブートキャンプで作りたいもの | 作りたいアプリの説明 | `src/components/Bootcamp.tsx` |
 | 制作で使っているツール | 技術・ツールの一覧 | `src/data/skills.ts` |
 | フッター | GitHubへのリンク | `src/components/Footer.tsx` |
 

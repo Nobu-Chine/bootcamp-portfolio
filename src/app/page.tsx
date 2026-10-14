@@ -3,7 +3,6 @@ import Hero from "@/components/Hero";
 import Tools from "@/components/Tools";
 import OtherWorks from "@/components/OtherWorks";
 import Approach from "@/components/Approach";
-import Bootcamp from "@/components/Bootcamp";
 import Skills from "@/components/Skills";
 import Footer from "@/components/Footer";
 
@@ -16,7 +15,6 @@ export default function Home() {
         <Tools />
         <OtherWorks />
         <Approach />
-        <Bootcamp />
         <Skills />
       </main>
       <Footer />

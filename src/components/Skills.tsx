@@ -2,7 +2,7 @@ import { skillCategories } from "@/data/skills";
 
 export default function Skills() {
   return (
-    <section id="skills" className="bg-card px-6 py-24">
+    <section id="skills" className="px-6 py-24">
       <div className="mx-auto max-w-2xl">
         <h2 className="text-sm font-semibold tracking-wide text-accent">
           SKILLS
@@ -22,7 +22,7 @@ export default function Skills() {
                 {cat.items.map((item) => (
                   <span
                     key={item}
-                    className="rounded-full border border-border bg-background px-3 py-1 text-sm"
+                    className="rounded-full border border-border bg-card px-3 py-1 text-sm"
                   >
                     {item}
                   </span>
