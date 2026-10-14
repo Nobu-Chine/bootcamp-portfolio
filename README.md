@@ -3,6 +3,8 @@
 Singularity Society BootCamp 応募用の自己紹介サイト。
 身の回りの困りごとを生成AIと一緒にツールにして、実際に使い続けている例を紹介する。
 
+**公開URL:** https://bootcamp-portfolio-beta.vercel.app
+
 ## ページの構成
 
 1ページ構成で、上のメニューから各セクションへ移動できる。
