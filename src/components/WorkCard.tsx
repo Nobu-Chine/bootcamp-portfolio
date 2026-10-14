@@ -44,6 +44,10 @@ export default function WorkCard({ work }: { work: Work }) {
         {work.point}
       </p>
 
+      {work.note && (
+        <p className="mt-4 text-xs text-muted">※ {work.note}</p>
+      )}
+
       {(work.url || work.repo) && (
         <div className="mt-4 flex gap-4 text-xs font-semibold text-accent">
           {work.url && (

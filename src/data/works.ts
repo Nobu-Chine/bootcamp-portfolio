@@ -5,6 +5,8 @@ export type Work = {
   point: string;
   // 実際にどう使っているか（「実際に使い続けているツール」のカードだけ書く）
   usage?: string;
+  // リンクの近くに出す補足（「パソコンでの利用がおすすめ」など）
+  note?: string;
   url?: string;
   // 公開(Public)しているGitHubリポジトリだけ書く
   repo?: string;
@@ -20,6 +22,7 @@ export const tools: Work[] = [
     usage: "実際の業務で、毎月のシフト作成に使用中",
     // public/shift-tool.html（実名を仮の名前に置き換えた公開用コピー）
     url: "/shift-tool.html",
+    note: "パソコンでの利用がおすすめ",
   },
   {
     title: "月次請求書自動化",
