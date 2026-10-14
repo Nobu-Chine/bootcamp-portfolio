@@ -8,7 +8,7 @@ export default function Skills() {
           SKILLS
         </h2>
         <h3 className="mt-2 text-center text-2xl font-bold tracking-tight sm:text-3xl">
-          制作で使っているツール
+          制作で使っている技術
         </h3>
         <p className="mt-3 text-sm leading-relaxed text-muted">
           制作の過程で、生成AIが選んで使っているツールです。動きがなんとなく分かるものもあれば、まだブラックボックスのままのものもあります。

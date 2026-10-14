@@ -11,8 +11,22 @@ export default function Hero() {
         <span className="inline-block">現場の「不便」を、</span>
         <span className="inline-block">生成AIで解決する</span>
       </h1>
-      <p className="mt-6 max-w-md text-left text-base leading-relaxed text-muted sm:text-center">
-        私はエンジニアではありません。配送の仕事をしながら、<span className="whitespace-nowrap">バドミントン</span>クラブのコーチもしています。身の回りの困りごとをAIと一緒にツールにして、日々の仕事や活動で使っています。
+      <p className="mt-6 max-w-md text-base leading-relaxed text-muted">
+        {/* 意味のまとまりごとに改行させて、1〜2文字だけ次の行に残らないようにしている */}
+        {[
+          "私はエンジニアではありません。",
+          "配送の仕事をしながら、",
+          "バドミントンクラブの",
+          "コーチもしています。",
+          "身の回りの困りごとを",
+          "AIと一緒にツールにして、",
+          "日々の仕事や活動で",
+          "使っています。",
+        ].map((phrase) => (
+          <span key={phrase} className="inline-block">
+            {phrase}
+          </span>
+        ))}
       </p>
     </section>
   );
